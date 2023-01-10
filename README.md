@@ -68,7 +68,7 @@ Note: Assuming system max memory in 16GB
 
 <br>
 
-1. How to block the ports 
+1. How to block the ports oon Ubuntu server
 
 Command to install firewalld
 
@@ -82,7 +82,7 @@ Command to block port number
 sudo firewall-cmd --remove-port=22/tcp --permanent
 ```
 
-2. Steps to setup port forwarding
+2. Steps to setup port forwarding on linux VM
 
 ```
 sudo apt-get update
