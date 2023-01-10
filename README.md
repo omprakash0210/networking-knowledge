@@ -26,7 +26,7 @@ In Git CLI we can find git commit message by running below command in repo
 
 ### Docker
 
-Dockerfile
+Below Dockerfile could used to create node.js application with IST time zone and runnng the app as non-root user
 
 ```
 
@@ -43,7 +43,7 @@ RUN date
 # 8877 is the user id for non-root user
 
 RUN useradd -u 8877 om
-# Change to non-root privilege
+# Change to non-root privilege user
 USER om
 
 ```
